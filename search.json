@@ -1,16 +1,30 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Haben D Gebre",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Haben D Gebre",
+    "section": "",
+    "text": "Welcome to my Quarto website.\nThis site was created using Quarto and Python on my AWS EC2 environment."
+  },
+  {
+    "objectID": "index.html#python-example",
+    "href": "index.html#python-example",
+    "title": "Haben D Gebre",
+    "section": "Python Example",
+    "text": "Python Example\n\nnumbers = [10, 20, 30, 40, 50]\naverage = sum(numbers) / len(numbers)\n\nprint(\"Numbers:\", numbers)\nprint(\"Average:\", average)\n\nNumbers: [10, 20, 30, 40, 50]\nAverage: 30.0"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Haben D Gebre",
+    "section": "About Me",
+    "text": "About Me\nI am interested in business analytics, data analysis, and using data to solve business problems."
   }
 ]
