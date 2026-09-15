@@ -1,9 +1,24 @@
 ---
 title: "Haben D Gebre"
+jupyter: python3
 ---
 
-This is a Quarto website.
+Welcome to my Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This site was created using Quarto and Python on my AWS EC2 environment.
+
+## Python Example
+
+```{python}
+numbers = [10, 20, 30, 40, 50]
+average = sum(numbers) / len(numbers)
+
+print("Numbers:", numbers)
+print("Average:", average)
+```
+
+## About Me
+
+I am interested in business analytics, data analysis, and using data to solve business problems.
 
 ![](./images/1111.png){width="75%" fig-align="center"}
