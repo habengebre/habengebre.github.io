@@ -1,5 +1,35 @@
 ---
-title: "About"
+title: "About Me"
+pagetitle: "About | Haben D. Gebre"
 ---
 
-About this site
+```{=html}
+<section class="portfolio-section">
+  <p class="eyebrow">My background</p>
+
+  <h2>Business-minded. <em>Technology-curious.</em></h2>
+
+  <p>
+    Hey, I’m Haben! Originally from Tigray, Ethiopia, I’m now
+    based in Boston and pursuing an M.S. in Business Analytics
+    at Boston University, with expected graduation in June 2027.
+    My path has taken me from studying management at Sheba
+    University College to computer science at Bunker Hill
+    Community College, and now to exploring how data can guide
+    business decisions. I enjoy working through practical
+    problems, learning how things work, and turning what I learn
+    into something useful. Through academic projects, I’m building
+    my skills in Python, SQL, data visualization, and cloud
+    technology. My experience in document operations at Ascensus
+    and customer service at ABM has taught me to pay attention
+    to details and communicate clearly. This portfolio is where
+    I share my work, what I’m learning, and my progress toward
+    a career in analytics, business intelligence, or data
+    engineering.
+  </p>
+
+  <a class="portfolio-button primary" href="projects.html">
+    Explore my projects ↗
+  </a>
+</section>
+```

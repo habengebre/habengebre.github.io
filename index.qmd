@@ -1,24 +1,143 @@
 ---
 title: "Haben D Gebre"
-jupyter: python3
+pagetitle: "Haben D Gebre | Portfolio"
+title-block-banner: false
 ---
 
-Welcome to my Quarto website.
+```{=html}
+<section id="portfolio-home" class="portfolio-hero">
+ <header class="hero-heading">
+  <p class="eyebrow">Business Analytics</p>
 
-This site was created using Quarto and Python on my AWS EC2 environment.
+  <h1 class="hero-title">
+    Turning data into clear insights and practical decisions.
+  </h1>
+</header>
 
-## Python Example
+  <div class="hero-content">
+    <p class="hero-description">
+      I’m Haben, a graduate student in Business Analytics at
+      Boston University. I’m developing my skills in Python,
+      SQL, data visualization, and cloud technology through
+      hands-on academic projects.
+    </p>
 
-```{python}
-numbers = [10, 20, 30, 40, 50]
-average = sum(numbers) / len(numbers)
+    <div class="hero-actions">
+      <a class="portfolio-button primary" href="projects.html">
+        View my projects <span aria-hidden="true">↗</span>
+      </a>
 
-print("Numbers:", numbers)
-print("Average:", average)
+      <a class="portfolio-button secondary"
+         href="files/Haben_Gebre_CV.pdf"
+         target="_blank"
+         rel="noopener noreferrer">
+        View my CV <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+
+    <div class="hero-details">
+      <div>
+        <span class="detail-value">Boston</span>
+        <span class="detail-label">Massachusetts</span>
+      </div>
+      <div>
+        <span class="detail-value">M.S.</span>
+        <span class="detail-label">Business Analytics</span>
+      </div>
+      <div>
+        <span class="detail-value">2027</span>
+        <span class="detail-label">Expected graduation</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-profile">
+    <div class="portrait-frame">
+      <img src="images/1111.png"
+           alt="Portrait of Haben D. Gebre"
+           class="profile-photo"
+           fetchpriority="high">
+    </div>
+
+    <p class="portrait-caption">Learning. Building. Growing.</p>
+
+    <div class="profile-links">
+      <a href="https://github.com/habengebre"
+         target="_blank"
+         rel="noopener noreferrer">
+        GitHub ↗
+      </a>
+      <a href="contact.html">Contact ↗</a>
+    </div>
+  </div>
+</section>
+
+<script>
+(() => {
+  const home = document.getElementById("portfolio-home");
+  const photo = home?.querySelector(".profile-photo");
+  if (!photo) return;
+
+  const entrances = ["rise", "slide", "zoom", "tilt"];
+  let lastEntrance = "";
+  let homeVisible = false;
+  let lastPlayed = -Infinity;
+
+  function playEntrance() {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      return;
+    }
+
+    if (performance.now() - lastPlayed < 1000) return;
+
+    const choices = entrances.filter(name => name !== lastEntrance);
+    lastEntrance = choices[Math.floor(Math.random() * choices.length)];
+    lastPlayed = performance.now();
+
+    photo.classList.remove("portrait-enter");
+    photo.dataset.entrance = lastEntrance;
+    void photo.offsetWidth;
+    photo.classList.add("portrait-enter");
+  }
+
+  const observer = new IntersectionObserver(entries => {
+    const visible = entries[0].isIntersecting;
+
+    if (visible && !homeVisible) {
+      playEntrance();
+    }
+
+    homeVisible = visible;
+  }, {
+    rootMargin: "-100px 0px 0px 0px",
+    threshold: 0
+  });
+
+  observer.observe(home);
+
+  document.addEventListener("click", event => {
+    if (!(event.target instanceof Element)) return;
+
+    const link = event.target.closest("a[href]");
+    if (!link) return;
+
+    const destination = new URL(link.href, location.href);
+    const samePage =
+      destination.origin === location.origin &&
+      destination.pathname === location.pathname;
+
+    if (samePage &&
+        destination.hash === "#portfolio-home" &&
+        homeVisible) {
+      playEntrance();
+    }
+  });
+
+  window.addEventListener("pageshow", event => {
+    if (event.persisted) {
+      playEntrance();
+    }
+  });
+})();
+</script>
 ```
-
-## About Me
-
-I am interested in business analytics, data analysis, and using data to solve business problems.
-
-![](./images/1111.png){width="75%" fig-align="center"}

@@ -1,0 +1,285 @@
+---
+title: "Projects"
+pagetitle: "Projects | Haben D. Gebre"
+---
+```{=html}
+<section id="projects" class="portfolio-section projects-section">
+  <p class="eyebrow">Academic and applied work</p>
+  <h2>Projects with a <em>practical purpose.</em></h2>
+  <div class="project-navigation">
+    <p id="project-help">Explore all six projects. Swipe or use the arrows.</p>
+    <span id="project-count" aria-live="polite">1 / 6</span>
+  </div>
+  <div class="project-slider">
+    <button type="button"
+            class="project-arrow project-arrow-left"
+            aria-label="Previous project"
+            aria-controls="project-track"
+            hidden>←</button>
+    <div id="project-track" class="project-track"
+         tabindex="0" role="region"
+         aria-label="Six portfolio projects"
+         aria-describedby="project-help">
+      <article class="project-story">
+        <p class="project-category">01 / Decision support · 2026</p>
+        <h3>Strategic Decision Support Project</h3>
+        <p class="project-course">
+          MET AD 715 — Quantitative &amp; Qualitative Decision Making
+        </p>
+        <p>
+          Prepared a managerial decision report evaluating whether a Boston
+          restaurant should invest in a $150,000 turnkey 40-barrel microbrewery
+          system with eight tanks, on-premise retail sales, and wholesale
+          keg distribution.
+        </p>
+        <p>
+          Examined customer segmentation, competitor positioning, pricing
+          strategy, production capacity, operating costs, staffing, and
+          financial feasibility.
+        </p>
+        <p>
+          Applied SWOT, PESTEL, Porter’s Five Forces, break-even analysis,
+          what-if analysis, sensitivity analysis, KPI review, and financial
+          statement interpretation across simulation cycles.
+        </p>
+        <p>
+          The stronger alternative projected approximately $4.58 million in
+          three-year revenue and $2.07 million in net income, compared with
+          $3.85 million in revenue and $1.55 million in net income for the
+          weaker alternative.
+        </p>
+        <p class="project-note">
+          Results are simulation projections, not actual business earnings.
+        </p>
+      </article>
+      <article class="project-story">
+        <p class="project-category">02 / Python and SQL · 2026</p>
+        <h3>Data Analytics and Modeling Projects</h3>
+        <p class="project-course">MET AD 599 — Python/SQL Business Analytics</p>
+        <p>
+          Cleaned, prepared, and validated structured datasets using Python
+          and pandas. Work included missing-value handling, target-variable
+          mapping, categorical encoding, feature selection, and train/test
+          splitting.
+        </p>
+        <p>
+          Built scikit-learn workflows using pipelines, OneHotEncoder,
+          StandardScaler, polynomial features, cross-validation, and
+          GridSearchCV to compare models and reduce manual processing errors.
+        </p>
+        <p>
+          Tested and documented linear regression, logistic regression,
+          Ridge, Lasso, KNN, decision tree, and random forest models.
+          Evaluated performance using RMSE, accuracy, and business interpretation.
+        </p>
+        <p>
+          Wrote SQL queries using joins, self-joins, grouping, filtering,
+          aggregations, views, and date filters to answer business
+          reporting questions.
+        </p>
+      </article>
+      <article class="project-story">
+        <p class="project-category">03 / Financial analysis · 2025</p>
+        <h3>Financial Analysis and Business Case Projects</h3>
+        <p class="project-course">MET AD 632 — Financial Concepts</p>
+        <p>
+          Applied financial concepts to evaluate revenue, costs, gross profit,
+          operating income, net income, budgets, and profitability trends
+          across business-case and simulation-based assignments.
+        </p>
+        <p>
+          Connected financial statement logic to business decisions by
+          examining how pricing, cost structure, marketing spend, and
+          operational assumptions affect profitability and risk.
+        </p>
+        <p>
+          Translated financial analysis into plain-language recommendations
+          for non-technical managers, connecting quantitative results with
+          practical business guidance.
+        </p>
+      </article>
+      <article class="project-story">
+        <p class="project-category">04 / Analytics strategy · 2025</p>
+        <h3>Analytics Strategy and KPI Projects</h3>
+        <p class="project-course">MET AD 571 — Business Analytics Foundations</p>
+        <p>
+          Developed analytics deliverables that defined business problems,
+          identified stakeholders, selected performance metrics, organized
+          data requirements, and connected analysis to decision-making goals.
+        </p>
+        <p>
+          Applied business frameworks and reporting logic to evaluate
+          opportunities, risks, market conditions, and performance gaps
+          across class projects.
+        </p>
+        <p>
+          Created management-ready summaries, charts, and recommendations
+          that converted analysis into action steps for non-technical
+          decision makers.
+        </p>
+      </article>
+      <article class="project-story">
+        <p class="project-category">05 / Software evaluation · 2026</p>
+        <h3>ERP Selection, RFP Scoring, and Vendor Evaluation</h3>
+        <p class="project-course">
+          Build Fellowship — Public-Sector Finance Simulation
+        </p>
+        <p>
+          Built an RFP-style vendor evaluation model for a city finance
+          department, using weighted scoring categories for functional
+          requirements, technical integration, implementation services,
+          pricing, usability, and vendor experience.
+        </p>
+        <p>
+          Designed finance-focused demo questions and scoring criteria
+          covering general ledger, budget controls, AP/AR workflows,
+          procurement-to-GL integration, audit trails, role-based security,
+          and export functionality.
+        </p>
+        <p>
+          Created process-flow logic for ITB/RFP development, advertising,
+          proposal intake, committee scoring, shortlisting, demonstrations,
+          negotiations, approvals, and contract execution.
+        </p>
+        <p>
+          Translated qualitative requirements into a structured scorecard
+          to compare vendors consistently and support a defensible
+          recommendation to stakeholders.
+        </p>
+        <p class="project-note">
+          Academic simulation of a public-sector procurement process.
+        </p>
+      </article>
+    <article class="project-story">
+  <p class="project-category">
+    06 / Team project · In progress · 2026
+  </p>
+  <h3>Insurance Data Engineer Job Market Analysis</h3>
+  <p class="project-course">
+    MET AD 688 — Big Data and Cloud Analytics · Boston University
+  </p>
+  <p>
+    This ongoing group project analyzes the job market for
+    data engineers in the insurance industry, focusing on
+    hiring trends, demand, and required skills. Using job-posting
+    data, statistical analysis, and visualizations, our team
+    explores the skills employers seek and what those findings
+    mean for professionals entering the field. The project is
+    part of Boston University’s Big Data and Cloud Analytics course.
+  </p>
+  <a class="portfolio-button secondary"
+     href="https://github.com/gheydt/ad688group3.github.io"
+     target="_blank"
+     rel="noopener noreferrer">
+    View team repository ↗
+  </a>
+</article>
+    </div>
+    <button type="button"
+            class="project-arrow project-arrow-right"
+            aria-label="Next project"
+            aria-controls="project-track">→</button>
+  </div>
+</section>
+```
+```{=html}
+<script>
+(() => {
+  function initialize() {
+    const slider = document.querySelector(".project-slider");
+    if (!slider || slider.dataset.initialized) return;
+    const track = slider.querySelector(".project-track");
+    if (!track) return;
+    const cards = [...track.querySelectorAll(".project-story")];
+    const previous = slider.querySelector(".project-arrow-left");
+    const next = slider.querySelector(".project-arrow-right");
+    const count = document.getElementById("project-count");
+    if (!cards.length || !previous || !next) return;
+    slider.dataset.initialized = "true";
+    let targetIndex = 0;
+    let moving = false;
+    let settleTimer;
+    function position(index) {
+      return cards[index].getBoundingClientRect().left
+        - track.getBoundingClientRect().left
+        - track.clientLeft
+        + track.scrollLeft;
+    }
+    function nearestIndex() {
+      return cards.reduce((closest, card, index) =>
+        Math.abs(position(index) - track.scrollLeft) <
+        Math.abs(position(closest) - track.scrollLeft)
+          ? index : closest, 0);
+    }
+    function update(index) {
+      const first = index === 0;
+      const last = index === cards.length - 1;
+      if (first && document.activeElement === previous) {
+        next.focus({ preventScroll: true });
+      }
+      if (last && document.activeElement === next) {
+        previous.focus({ preventScroll: true });
+      }
+      previous.hidden = first;
+      next.hidden = last;
+      if (count) {
+        count.textContent = `${index + 1} / ${cards.length}`;
+      }
+    }
+    function settle() {
+      moving = false;
+      targetIndex = nearestIndex();
+      update(targetIndex);
+    }
+    function move(direction) {
+      if (!moving) targetIndex = nearestIndex();
+      targetIndex = Math.max(
+        0,
+        Math.min(cards.length - 1, targetIndex + direction)
+      );
+      moving = true;
+      update(targetIndex);
+      track.scrollTo({
+        left: position(targetIndex),
+        behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? "auto" : "smooth"
+      });
+      clearTimeout(settleTimer);
+      settleTimer = setTimeout(settle, 250);
+    }
+    previous.addEventListener("click", () => move(-1));
+    next.addEventListener("click", () => move(1));
+    track.addEventListener("scroll", () => {
+      if (!moving) update(nearestIndex());
+      clearTimeout(settleTimer);
+      settleTimer = setTimeout(settle, 150);
+    }, { passive: true });
+    track.addEventListener("pointerdown", () => {
+      moving = false;
+    }, { passive: true });
+    track.addEventListener("keydown", event => {
+      if (event.target !== track) return;
+      if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+        event.preventDefault();
+        move(event.key === "ArrowLeft" ? -1 : 1);
+      }
+    });
+    window.addEventListener("resize", () => {
+      track.scrollTo({
+        left: position(targetIndex),
+        behavior: "instant"
+      });
+      settle();
+    });
+    settle();
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initialize, {
+      once: true
+    });
+  } else {
+    initialize();
+  }
+})();
+</script>
+```

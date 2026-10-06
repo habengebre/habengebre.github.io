@@ -1,0 +1,29 @@
+---
+title: "Interests"
+pagetitle: "Interests | Haben D. Gebre"
+---
+
+```{=html}
+<section class="portfolio-section">
+  <p class="eyebrow">Outside my work</p>
+
+  <h2>Beyond the classroom</h2>
+
+  <p>
+    Music is a big part of my life, and I enjoy creating Tigrinya
+    music and telling stories through lyrics and sound. I play
+    soccer every Wednesday and proudly support Manchester United.
+    I also enjoy exploring technology and AI, spending time with
+    family, and staying connected to my community.
+  </p>
+
+  <p>
+    <em>
+      Arsenal or Liverpool fan? You’re welcome to browse just save
+      the “next year is our year” speeches and history lectures for
+      your group chat. This is my portfolio, not your football
+      therapy session.
+    </em>
+  </p>
+</section>
+```

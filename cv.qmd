@@ -1,0 +1,80 @@
+---
+title: "CV"
+pagetitle: "CV | Haben D. Gebre"
+---
+
+```{=html}
+<section class="portfolio-section">
+  <p class="eyebrow">My background</p>
+  <h2>Education, experience &amp; <em>skills.</em></h2>
+
+  <h3>Education</h3>
+
+  <p>
+    <strong>Boston University</strong><br>
+    M.S. in Business Analytics<br>
+    Expected June 2027
+  </p>
+
+  <p>
+    <strong>Bunker Hill Community College</strong><br>
+    A.S. in Computer Science<br>
+    December 2024
+  </p>
+
+  <p>
+    <strong>Sheba University College</strong><br>
+    B.S. in Management<br>
+    December 2022
+  </p>
+
+  <h3>Experience</h3>
+
+  <p>
+    <strong>ABM Industries — Valet Attendant</strong><br>
+    June 2023–Present · Part-time<br>
+    Provide customer service, handle vehicles carefully, and
+    support daily operations while responding to customer needs.
+  </p>
+
+  <p>
+    <strong>Open Avenues Foundation — Build Student Consultant</strong><br>
+    March–April 2026<br>
+    Developed a vendor evaluation scorecard for a public-sector
+    finance simulation, translating requirements into weighted
+    criteria to support consistent vendor comparisons.
+  </p>
+
+  <p>
+    <strong>Ascensus — Mail Operations Representative</strong><br>
+    March 2022–December 2025<br>
+    Processed documents supporting 529 education savings plans
+    and retirement-plan and health-related records. Used Kofax
+    to scan and separate documents, correct items returned by
+    quality control, and prepare confidential records for
+    further processing.
+  </p>
+
+  <h3>Technical skills</h3>
+
+  <p>
+    Developing skills in Python, pandas, SQL, scikit-learn,
+    data visualization, and AWS through coursework and projects.
+    Practical experience with Kofax document processing.
+  </p>
+
+  <h3>Languages</h3>
+
+  <p>
+    Amharic and Tigrinya — Native<br>
+    English — Professional working proficiency
+  </p>
+
+  <a class="portfolio-button primary"
+     href="files/Haben_Gebre_CV.pdf"
+     target="_blank"
+     rel="noopener noreferrer">
+    My CV <span aria-hidden="true">↗</span>
+  </a>
+</section>
+```

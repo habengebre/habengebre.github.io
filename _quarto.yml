@@ -1,21 +1,29 @@
 project:
   type: website
+  resources:
+    - files/Haben_Gebre_CV.pdf
 
 website:
   title: "Haben D Gebre"
   navbar:
-    left:
+    pinned: true
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: cv.qmd
+        text: CV
+      - href: interests.qmd
+        text: Interests
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
-    toc: true
-
-
-
+    toc: false
+    page-layout: full
