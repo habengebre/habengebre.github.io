@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://habengebre.github.io/about.html</loc>
-    <lastmod>2026-09-15T01:59:26.521Z</lastmod>
+    <loc>https://habengebre.github.io/projects.html</loc>
+    <lastmod>2026-10-06T18:08:45.455Z</lastmod>
   </url>
   <url>
     <loc>https://habengebre.github.io/index.html</loc>
-    <lastmod>2026-09-15T01:59:26.523Z</lastmod>
+    <lastmod>2026-10-06T18:34:41.488Z</lastmod>
+  </url>
+  <url>
+    <loc>https://habengebre.github.io/contact.html</loc>
+    <lastmod>2026-10-06T12:32:44.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://habengebre.github.io/about.html</loc>
+    <lastmod>2026-10-06T12:27:27.479Z</lastmod>
+  </url>
+  <url>
+    <loc>https://habengebre.github.io/cv.html</loc>
+    <lastmod>2026-10-06T12:31:55.693Z</lastmod>
+  </url>
+  <url>
+    <loc>https://habengebre.github.io/interests.html</loc>
+    <lastmod>2026-10-06T12:39:31.923Z</lastmod>
   </url>
 </urlset>

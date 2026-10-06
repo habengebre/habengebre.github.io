@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Haben D Gebre | Portfolio – Haben D Gebre</title>
+<title>Interests | Haben D. Gebre – Haben D Gebre</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -95,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./interests.html"> 
+    <a class="nav-link active" href="./interests.html" aria-current="page"> 
 <span class="menu-text">Interests</span></a>
   </li>  
   <li class="nav-item">
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Haben D Gebre</h1>
+<h1 class="title">Interests</h1>
 </div>
 
 
@@ -152,133 +152,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="portfolio-home" class="portfolio-hero">
- <header class="hero-heading">
-  <p class="eyebrow">Business Analytics</p>
+<section class="portfolio-section">
+  <p class="eyebrow">Outside my work</p>
 
-  <h1 class="hero-title">
-    Turning data into clear insights and practical decisions.
-  </h1>
-</header>
+  <h2 class="anchored">Beyond the classroom</h2>
 
-  <div class="hero-content">
-    <p class="hero-description">
-      I’m Haben, a graduate student in Business Analytics at
-      Boston University. I’m developing my skills in Python,
-      SQL, data visualization, and cloud technology through
-      hands-on academic projects.
-    </p>
+  <p>
+    Music is a big part of my life, and I enjoy creating Tigrinya
+    music and telling stories through lyrics and sound. I play
+    soccer every Wednesday and proudly support Manchester United.
+    I also enjoy exploring technology and AI, spending time with
+    family, and staying connected to my community.
+  </p>
 
-    <div class="hero-actions">
-      <a class="portfolio-button primary" href="projects.html">
-        View my projects <span aria-hidden="true">↗</span>
-      </a>
-
-      <a class="portfolio-button secondary" href="files/Haben_Gebre_CV.pdf" target="_blank" rel="noopener noreferrer">
-        View my CV <span aria-hidden="true">↗</span>
-      </a>
-    </div>
-
-    <div class="hero-details">
-      <div>
-        <span class="detail-value">Boston</span>
-        <span class="detail-label">Massachusetts</span>
-      </div>
-      <div>
-        <span class="detail-value">M.S.</span>
-        <span class="detail-label">Business Analytics</span>
-      </div>
-      <div>
-        <span class="detail-value">2027</span>
-        <span class="detail-label">Expected graduation</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="hero-profile">
-    <div class="portrait-frame">
-      <img src="images/1111.png" alt="Portrait of Haben D. Gebre" class="profile-photo" fetchpriority="high">
-    </div>
-
-    <p class="portrait-caption">Learning. Building. Growing.</p>
-
-    <div class="profile-links">
-      <a href="https://github.com/habengebre" target="_blank" rel="noopener noreferrer">
-        GitHub ↗
-      </a>
-      <a href="contact.html">Contact ↗</a>
-    </div>
-  </div>
+  <p>
+    <em>
+      Arsenal or Liverpool fan? You’re welcome to browse just save
+      the “next year is our year” speeches and history lectures for
+      your group chat. This is my portfolio, not your football
+      therapy session.
+    </em>
+  </p>
 </section>
-
-<script>
-(() => {
-  const home = document.getElementById("portfolio-home");
-  const photo = home?.querySelector(".profile-photo");
-  if (!photo) return;
-
-  const entrances = ["rise", "slide", "zoom", "tilt"];
-  let lastEntrance = "";
-  let homeVisible = false;
-  let lastPlayed = -Infinity;
-
-  function playEntrance() {
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      return;
-    }
-
-    if (performance.now() - lastPlayed < 1000) return;
-
-    const choices = entrances.filter(name => name !== lastEntrance);
-    lastEntrance = choices[Math.floor(Math.random() * choices.length)];
-    lastPlayed = performance.now();
-
-    photo.classList.remove("portrait-enter");
-    photo.dataset.entrance = lastEntrance;
-    void photo.offsetWidth;
-    photo.classList.add("portrait-enter");
-  }
-
-  const observer = new IntersectionObserver(entries => {
-    const visible = entries[0].isIntersecting;
-
-    if (visible && !homeVisible) {
-      playEntrance();
-    }
-
-    homeVisible = visible;
-  }, {
-    rootMargin: "-100px 0px 0px 0px",
-    threshold: 0
-  });
-
-  observer.observe(home);
-
-  document.addEventListener("click", event => {
-    if (!(event.target instanceof Element)) return;
-
-    const link = event.target.closest("a[href]");
-    if (!link) return;
-
-    const destination = new URL(link.href, location.href);
-    const samePage =
-      destination.origin === location.origin &&
-      destination.pathname === location.pathname;
-
-    if (samePage &&
-        destination.hash === "#portfolio-home" &&
-        homeVisible) {
-      playEntrance();
-    }
-  });
-
-  window.addEventListener("pageshow", event => {
-    if (event.persisted) {
-      playEntrance();
-    }
-  });
-})();
-</script>
 
 
 
